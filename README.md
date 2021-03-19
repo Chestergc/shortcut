@@ -1,11 +1,9 @@
 # shortcut
-Quickly make and use shortcuts in your shell for easy navigation
+This is a fork from https://github.com/zakkor/shortcut to make it work on the mobile terminal Termux, it's the same program, with the fixed installer, just in case someone ends up needing it. It should install properly whether you're using bash or zsh. 
 
 ## Installation
 
-`sh install.sh` will put an executable `shortcut` in `/usr/local/bin`, and append a shell function called `sc` to your `.zshrc`.
-
-If you use bash, edit it to `.bashrc` in the install.sh script.
+`sh install.sh` will put an executable `shortcut` in `/data/data/com.termux/files/usr/bin/shortcut`, and append a shell function called `sc` to your rc file.
 
 ## Example usage
 

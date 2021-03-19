@@ -1,8 +1,10 @@
 #!/bin/bash
 
-sudo cp ./shortcut.sh /usr/local/bin/shortcut
-sudo chmod +x /usr/local/bin/shortcut
+# These commands are just for termux installation
 
-# TODO: Add support for .bashrc
-cat alias.sh >> ~/.zshrc
+$dataPath = "/data/data/com.termux/files/usr/bin/zsh"
+cp ./shortcut.sh /data/data/com.termux/files/usr/bin/shortcut
+chmod +x /data/data/com.termux/files/usr/bin/shortcut
+
 touch ~/.scrc
+cat alias.sh >> ~/.zshrc
