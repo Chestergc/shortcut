@@ -1,5 +1,5 @@
 # shortcut
-This is a fork from https://github.com/zakkor/shortcut to make it work on the mobile terminal Termux, it's the same program, with the fixed installer, just in case someone ends up needing it. It should install properly whether you're using bash or zsh. 
+This is a fork from https://github.com/zakkor/shortcut to make it work on the mobile terminal Termux, it's the same program, with the fixed installer, just in case someone ends up needing it. If you're using bash you should change that in the installer, I use zsh.
 
 ## Installation
 
